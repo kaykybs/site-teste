@@ -1,0 +1,309 @@
+ * {
+     padding: 0;
+     margin: 0;
+
+ }
+
+ /* home page style */
+ .linha {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     border: 3px solid rgb(0, 0, 0);
+     border-radius: 7px;
+     border-style: inset;
+     border-color: rgb(15, 15, 15);
+     background-color: rgb(255, 255, 255);
+
+ }
+
+ .barra {
+     margin: 24px;
+     font-size: 50px;
+     color: rgb(255, 255, 255);
+     border: 3px solid red;
+     border-radius: 9px;
+     background-color: rgb(0, 0, 0);
+     padding: 5px;
+     transition: transform 0.3s ease, background-color 0.3s ease;
+
+
+
+ }
+
+ .barra:hover {
+
+     color: rgb(255, 0, 0);
+     background-color: rgb(0, 0, 0);
+     transform: scale(0.85);
+
+ }
+
+
+ .logo {
+     display: flex;
+     width: 70px;
+     height: 70px;
+     margin-right: 100px;
+     border-radius: 80px;
+
+ }
+
+ a {
+
+     text-decoration: none;
+
+ }
+
+ .imagem-home {
+
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     gap: 10px;
+     justify-content: center;
+     padding: 30px;
+ }
+
+
+ .imagem {
+     display: flex;
+     flex-direction: column;
+     justify-items: center;
+     align-items: center;
+     gap: 20px;
+ }
+
+ .imagem_class {
+
+     width: 750px;
+     height: 750px;
+ }
+
+ .imagem-home span {
+     color: azure;
+     font-size: 30px;
+ }
+
+ /* pagina de produtos style */
+ .page-produtos {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+ }
+
+ .lista-produtos {
+     color: azure;
+     margin: 30px;
+     padding: 15px 30px;
+     background-color: #ffffff;
+     color: rgb(0, 0, 0);
+     font-size: 19px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: transform 0.3s ease, background-color 0.3s ease;
+
+ }
+
+ .lista-produtos:hover {
+     transform: scale(1.15);
+     background-color: #28aa2e;
+ }
+
+ .page-produtos-tenis {
+     justify-items: center;
+     align-items: center;
+     margin-top: 70px;
+     color: azure;
+
+ }
+
+ .produtos-tenis {
+
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+     margin-bottom: 50px;
+
+ }
+
+ .tenis {
+
+     display: flex;
+     justify-items: center;
+     align-items: center;
+     flex-direction: column;
+     margin: 10px;
+ }
+
+ .tenis span {
+
+     color: azure;
+     font-size: 27px;
+ }
+
+ /* pagina de produtos2/chuteira */
+
+ .page-produtos-chuteiras {
+
+     margin-top: 70px;
+     justify-items: center;
+     align-items: center;
+     color: azure;
+ }
+
+ .produtos-chuteira {
+
+     display: flex;
+     align-content: center;
+     justify-content: center;
+     flex-wrap: wrap;
+     margin-bottom: 50px;
+
+ }
+
+ .chuteira {
+
+     display: flex;
+     justify-items: center;
+     align-items: center;
+     flex-direction: column;
+     margin: 10px;
+ }
+
+ .chuteira span {
+
+     color: azure;
+     font-size: 27px;
+ }
+
+
+ /* pagina air max 4 */
+
+ .barra-header {
+
+     display: flex;
+     border: 2px solid black;
+     border-radius: 4px;
+
+ }
+
+ .logo2 {
+
+     display: flex;
+     margin-left: 50px;
+     width: 70px;
+     height: 70px;
+ }
+
+ .imagem-airmax{
+
+    display: flex;
+    width: 500px;
+    height: 500px;
+    margin-top: 40px;
+    margin-left: 80px;
+    float: left;
+    margin-right: 60px;
+    overflow: hidden;
+
+ }
+
+.imagem-airmax img {
+
+    width: 100%;
+    height: auto;
+    transition: transform 0.5s ease;
+
+}
+
+.imagem-airmax:hover img{
+    cursor: zoom-in;
+    transform: scale(1.3);
+}
+
+ .descriçao{
+
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    margin-top: 6%;
+    margin-bottom: 2%;
+    
+ }
+
+ .cores{
+
+    display: flex;
+    gap: 10px;
+    align-items: center;
+ }
+
+
+ .preto{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(0, 0, 0);
+    border: 2px solid rgb(0, 0, 0); 
+    border-radius: 50%;  
+
+ }
+
+  .branco{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(0, 0, 0); 
+    border-radius: 50%;  
+    
+
+ }
+
+ .vermelho{
+    width: 40px;
+    height: 40px;
+    background-color: rgb(255, 0, 0);
+    border: 2px solid rgb(0, 0, 0); 
+    border-radius: 50%;  
+
+ }
+
+ .todas-numeraçao{
+
+    display: flex;
+    justify-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 30px;
+    max-width: 250px;
+ }
+
+
+
+ .numeraçao {
+    font-size: 20px;
+    border: 2px solid gray;
+    border-radius: 4px;
+    padding: 8px;
+    padding-left: 4%;
+    padding-right: 4%;
+    cursor: pointer
+ }
+
+ .numeraçao:hover{
+
+    border: 2px solid black;
+ }
+
+ #cores{
+
+    margin-bottom: 13px;
+ }
+
+ #numeraçao{
+
+    margin-top: 13px;
+ }
