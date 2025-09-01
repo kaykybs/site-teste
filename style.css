@@ -3,6 +3,11 @@
      margin: 0;
 
  }
+@media screen and (max-width: 768px) {
+  .body {
+    display: block; 
+  }
+}     
 
  /* home page style */
  .linha {
@@ -306,4 +311,5 @@
  #numeraçao{
 
     margin-top: 13px;
+
  }
